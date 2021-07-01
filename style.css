@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-b3cZroeos8Sg68hWVmN-i54Wk6lEb6Dj1w&usqp=CAU');
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+nav li a{
+    display: flex;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(211, 63, 63);
+}
+nav ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+}
+#welcome{
+    text-align: center;
+    font-size: x-large;
+    color: brown;
+    font-family: 'Lobster', cursive;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+#flag{
+    width: 100%;
+}
+#Cam{
+    width: 100%;
+    background: rgb(19, 129, 83);
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    height: 30px;
+    list-style: none;
+}
+.container{
+    width: 60;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.5fr;
+    grid-template-areas: 
+    "introduce content map";
+}
+.introduce{
+    grid-area: introduce;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+.content{
+    grid-area: content;
+}
+.map{
+    grid-area: map;
+}
+iframe{
+    width: 80%;
+    float: right;
+}
+table{
+    width: 100%;
+    background: rgb(87, 84, 84);
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+table,
+tr,
+td,
+th{
+    color: rgb(189, 184, 184);
+}
+td{
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-collapse: collapse;
+}
+th{
+    border-bottom: 1px solid rgb(197, 194, 194);
+    font-size: 20px;
+    padding: 20px;
+    color: coral;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+@media(max-width: 900px){
+    .container{
+        display: block;
+    }
+}

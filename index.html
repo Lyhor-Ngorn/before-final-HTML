@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exam tomorrow</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmATbKS3M2eQ5YMd8zrDTsVCGUao_Gv9R5Q&usqp=CAU" type="image/x-icon">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#"><strong>Home</strong></a></li>
+                <li><a href="#"><strong>Music</strong></a></li>
+                <li><a href="#"><strong>Video</strong></a></li>
+                <li><a href="#"><strong>Comedy</strong></a></li>
+                <li><a href="#"><strong>Fasion</strong></a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><strong>Languages</strong></a></li>
+                <li><a href="#"><strong>Setting</strong></a></li>
+            </ul>
+        </nav>
+        <p id="welcome">Welcome To Cambodia</p>
+        <div class="container">
+            <div class="introduce">
+                <img src="data:image/png;base64,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" id="flag">
+                <h3>Cambodia</h3>
+                <p>Cambodia is a Southeast Asian nation whose landscape spans low-lying plains, the Mekong Delta, mountains and Gulf of Thailand coastline. Phnom Penh, its capital, is home to the art deco Central Market, glittering Royal Palace and the National Museum's historical and archaeological exhibits. In the country's northwest are the ruins of Angkor Wat, a massive stone temple complex built during the Khmer Empire. ― Google<br>
+                    <strong>Capital:</strong> Phnom Penh<br>
+                    <strong> code: </strong>+855<br>
+                    <strong>Population: </strong> million (2018) World Bank<br>
+                    <strong>Gross domestic product: </strong>24.54 billion USD (2018) World Bank
+                </p>
+                <button id="Cam"><a href="https://en.wikipedia.org/wiki/Cambodia">Cambodia</a></button>
+            </div>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th colspan="5">Some point Decription about Cambodia </th>
+                    </tr>
+                    <tr>
+                        <th>Province/City</th>
+                        <th>Capital city</th>
+                        <th>Population</th>
+                        <th>Area</th>
+                        <th>place for trip</th>
+                    </tr>
+                    <tr>
+                        <td>Phnom Penh</td>
+                        <td>Phnom Penh</td>
+                        <td>2,129,371</td>
+                        <td>679 km²</td>
+                        <td>Supermarket ...</td>
+                    </tr>
+                    <tr>
+                        <td>Kandal</td>
+                        <td>Ta Kmao</td>
+                        <td>1,195,547</td>
+                        <td>3,179 km²</td>
+                        <td>Udong mountain...</td>
+                    </tr>
+                    <tr>
+                        <td>Takeo</td>
+                        <td>Doun Kaev</td>
+                        <td>924,758</td>
+                        <td>3,563 km²</td>
+                        <td>Phnom Jiso mountain ...</td>
+                    </tr>
+                    <tr>
+                        <td>Prey Veng</td>
+                        <td>Prey Veng</td>
+                        <td>1,057,428</td>
+                        <td>4,883 km²</td>
+                        <td>Nak Loeng bridge ...</td>
+                    </tr>
+                    <tr>
+                        <td>Kom Pong Speu</td>
+                        <td>Chbar Mon</td>
+                        <td>872,219</td>
+                        <td>7,017 km² </td>
+                        <td>Phnom Aural ...</td>
+                    </tr>
+                    <tr>
+                        <td>Kampong Cham</td>
+                        <td>Kampong Cham</td>
+                        <td>895,763</td>
+                        <td> 4,549 km² </td>
+                        <td>Wat Nokor ...</td>
+                    </tr>
+                    <tr>
+                        <td>Svay Rieng</td>
+                        <td>Bavet,Svay Rieng</td>
+                        <td>524,554</td>
+                        <td>2,966 km² </td>
+                        <td>Bavet city ...</td>
+                    </tr>
+                    <tr>
+                        <td>Banteay Meanchey</td>
+                        <td>Serei Saophoan.Poipet</td>
+                        <td>859,545</td>
+                        <td>6,679 km² </td>
+                        <td>Poipet ...</td>
+                    </tr>
+                    <tr>
+                        <td>Kampong Chhnang</td>
+                        <td>Kampong Chhnang</td>
+                        <td> 525,932</td>
+                        <td>5,521 km² </td>
+                        <td>Kong Rei Mountain ...</td>
+                    </tr>
+                    <tr>
+                        <td>Stung Treng</td>
+                        <td>tung Treng</td>
+                        <td>11,092</td>
+                        <td>159,565 km² </td>
+                        <td>Sopheak Mitt Waterfall ...</td>
+                    </tr>
+                    <tr>
+                        <td>Oddar Meanchey</td>
+                        <td>Samraong</td>
+                        <td>261,252</td>
+                        <td>6,158 km² </td>
+                        <td>Taman temple ...</td>
+                    </tr>
+                    <tr>
+                        <td>Kratié</td>
+                        <td>Kratié</td>
+                        <td>327,825</td>
+                        <td>11,094 km² </td>
+                        <td>Sunset along the river ...</td>
+                    </tr>
+                    <tr>
+                        <td>Mondulkiri</td>
+                        <td>Senmonorom</td>
+                        <td>88,649</td>
+                        <td>14,288 km² </td>
+                        <td>Busra Waterfall ...</td>
+                    </tr>
+                    <tr>
+                        <td>Ratanakiri</td>
+                        <td>Banlung</td>
+                        <td>204,027</td>
+                        <td>10,782 km² </td>
+                        <td>Yeak Laom ...</td>
+                    </tr>
+                    <tr>
+                        <td>Koh Kong </td>
+                        <td>Khemarak Phoumin</td>
+                        <td>123,618</td>
+                        <td>10,090 km² </td>
+                        <td>Kong Kang Forest ...</td>
+                    </tr>
+                    <tr>
+                        <td>Sihanoukville</td>
+                        <td>Sihanouk</td>
+                        <td>89,846</td>
+                        <td>80 km² </td>
+                        <td>Beach ...</td>
+                    </tr>
+                    <tr>
+                        <td>Kep</td>
+                        <td>Kep</td>
+                        <td>41,798</td>
+                        <td>336 km² </td>
+                        <td>Island ...</td>
+                    </tr>
+                    <tr>
+                        <td>Preah Vihear</td>
+                        <td>Preah Vihear</td>
+                        <td>251,352</td>
+                        <td>13,788 km² </td>
+                        <td>Prah Vihear temple ...</td>
+                    </tr>
+
+                    <tr>
+                        <td>KomPongThom</td>
+                        <td>Stung Saen</td>
+                        <td> 677,260</td>
+                        <td>13,814  km² </td>
+                        <td>Sambor Prei Kuk Temple ...</td>
+                    </tr>
+                    <tr>
+                        <td>Kom Pong Speu</td>
+                        <td>Chbar Mon</td>
+                        <td>1,006,512</td>
+                        <td>10,299 km² </td>
+                        <td> Angkor Wat...</td>
+                    </tr>
+                    <tr>
+                        <td>Siem Reap</td>
+                        <td>Siem Reap</td>
+                        <td>872,219</td>
+                        <td>7,017 km² </td>
+                        <td>Phnom Aural ...</td>
+                    </tr>
+                    <tr>
+                        <td>Tbong Kmom</td>
+                        <td>Suong</td>
+                        <td>775,296</td>
+                        <td>5,250 km² </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Pursat</td>
+                        <td>Pursat</td>
+                        <td>411,759</td>
+                        <td>12,692 km² </td>
+                        <td>Natural Fruite ...</td>
+                    </tr>
+                    <tr>
+                        <td>Battambang</td>
+                        <td>Battambang</td>
+                        <td>147,349</td>
+                        <td>293  km² </td>
+                        <td>Best food ...</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3994260.874372215!2d102.73614034322199!3d12.13639810916273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310787bfd4dc3743%3A0xe4b7bfe089f41253!2sCambodia!5e0!3m2!1sen!2skh!4v1608622949381!5m2!1sen!2skh" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </body>
+    <footer style="padding: 50px;"></footer>
+</html>
